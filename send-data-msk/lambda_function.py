@@ -1,7 +1,8 @@
 import boto3
 import json
 import os
-from confluent_kafka import Producer
+# confluent kafka layer
+from confluent_kafka import Producer 
 from botocore.exceptions import ClientError
 from urllib.parse import unquote_plus
 
